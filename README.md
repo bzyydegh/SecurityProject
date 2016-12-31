@@ -16,5 +16,6 @@ Java实现加解密之单向加密，对称和非对称加密，数字签名
   右击项目 --> Properties --> Java Build Path --> 点开JRE System Library --> 
   点击Access rules --> Edit --> Add --> Resolution选择Accessible --> Rule Pattern填上 ** --> OK
 ### “Illegal key size or default parameters”异常
-    因为美国的出口限制，Sun通过权限文件（local_policy.jar、US_export_policy.jar）
-    做了相应限制。因此存在一些问题.
+  因为美国的出口限制，Sun通过权限文件（local_policy.jar、US_export_policy.jar）
+  做了相应限制。因此存在一些问题
+  解决办法参考：http://www.cnblogs.com/AloneSword/p/3487809.html
